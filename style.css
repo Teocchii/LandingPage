@@ -127,7 +127,7 @@
         }
 
         .cta-button {
-            
+            margin: 20px;
             background-color: #4CAF50;
             border: none;
             color: white;
@@ -141,18 +141,21 @@
           border-radius: 100px;
           width: auto;
           margin: 20px;
-          width: 40px;
-          padding: 10px;
+          width: 100px;
+          padding: 14px;
           position: relative;
-          left: 90%;
-          top: 12%;
+          left: -1%;
+          top: 13%;
 
         }
+       
         .fuente{
+            position: relative;
+            left:10%;
+            margin: 0px 20px;
             border-radius: 100px;
-            width: 90%;
+            width: 80%;
             height: 50px;
-            font-family: Arial, sans-serif;
            
         }
 
