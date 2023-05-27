@@ -137,6 +137,24 @@
             cursor: pointer;
             border-radius: 100px;
         }
+        .form{
+          border-radius: 100px;
+          width: auto;
+          margin: 20px;
+          width: 40px;
+          padding: 10px;
+          position: relative;
+          left: 90%;
+          top: 12%;
+
+        }
+        .fuente{
+            border-radius: 100px;
+            width: 90%;
+            height: 50px;
+            font-family: Arial, sans-serif;
+           
+        }
 
         .cta-button:hover {
             background-color: #45a049;
