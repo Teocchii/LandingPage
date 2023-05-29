@@ -1,6 +1,6 @@
 :root {
     font-family: 'Roboto Slab', serif;
-    --primary-color: #94764e;
+    --primary-color: #d4a373;
     --secondary-color: #FFF;
 }
 
@@ -15,7 +15,7 @@
 
         .header {
             height: 80px;
-            background-color: #947233;
+            background-color: #d4a373;
             padding: 1px;
             display: flex;
             justify-content: center;
@@ -104,7 +104,7 @@
 
        
         h1 {
-            color: #333333;
+            color: #faedcd;
             font-size: 32px;
             text-align: center;
             vertical-align: middle;
@@ -118,8 +118,8 @@
             color: #000000;
         }
         .descripcion{
-            height: 60vh !important;
-            background-color: rgb(119, 115, 115);
+            height: 85vh !important;
+            background-color: #faedcd;
             justify-content: left;
             flex-direction: column;
             display: flex;
@@ -127,8 +127,8 @@
         }
 
         .cta-button {
-            margin: 20px;
-            background-color: #4CAF50;
+            
+            background-color: #ccd5ae;
             border: none;
             color: white;
             padding: 15px 30px;
@@ -136,30 +136,41 @@
             text-decoration: none;
             cursor: pointer;
             border-radius: 100px;
+            position: relative;
+            top:-5%;
         }
         .form{
           border-radius: 100px;
           width: auto;
           margin: 20px;
-          width: 100px;
-          padding: 14px;
+          height: 5%;
+          width: 60px;
+          padding: 20px;
           position: relative;
           left: -1%;
-          top: 13%;
+        
+
 
         }
-       
         .fuente{
-            position: relative;
-            left:10%;
-            margin: 0px 20px;
             border-radius: 100px;
-            width: 80%;
+            width: 90%;
             height: 50px;
-           
+            font-family: Arial, sans-serif;
+            position: relative;
+            left: 8%;
+            top:-8%;
+        }
+        .deco1{
+            height: 30%;
+            width: 50%;
+           position: relative;
+           left: 25%;
+           top: 2.5%;
         }
 
         .cta-button:hover {
+          
             background-color: #45a049;
             
         }
